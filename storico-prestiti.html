@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link-bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- link-style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link-font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <title>html-css-bootstrap-dashboard</title>
+  </head>
+  <body class="roboto-regular bg-black">
+    <header>
+      <!-- Nav-bar -->
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="duck" src="../duck.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Catalogo libri</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Anagrafica Utenti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Storico Prestiti</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">help</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control text-bg-light me-2"
+                type="search"
+                placeholder="Cerca"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- fine nav-bar -->
+    </header>
+
+    <main class="container-lg py-5 fs-6">
+      <div class="row gx-5 m-auto">
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./pages/41iohY0+tcL._SY445_SX342_.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-bg-dark">
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">
+                  Il libro su Steve Jobs offre uno sguardo affascinante sulla
+                  sua visione innovativa e sul suo approccio audace nel
+                  trasformare l'industria tecnologica
+                </p>
+                <button type="button" class="btn btn-light">
+                  prestare di nuovo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./pages/71NTE7+WDOL._AC_UF1000,1000_QL80_.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-bg-dark">
+                <h5 class="card-title">Macbeth di Shakespeare</h5>
+                <p class="card-text">
+                  Macbeth" di Shakespeare è una potente tragedia che esplora
+                  temi di ambizione, colpa e la natura corrotta del potere
+                  attraverso la storia di un nobile guerriero che, spinto dalla
+                  profezia e dall'avidità, scivola nella follia e nella
+                  distruzione.
+                </p>
+                <button type="button" class="btn btn-light">
+                  prestare di nuovo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-5 m-auto">
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./pages/a-game-of-thrones-a-song-of-ice-and-fire-book-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-bg-dark">
+                <h5 class="card-title">House of dragon</h5>
+                <p class="card-text">
+                  "House of the Dragon" di George R.R. Martin è un'avvincente
+                  esplorazione della storia dei Targaryen, che narra le lotte
+                  interne per il potere e le conseguenze delle ambizioni
+                  dinastiche, con draghi e intrighi che infiammano il mondo di
+                  Westeros.
+                </p>
+                <button type="button" class="btn btn-light">
+                  prestare di nuovo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <div class="card" style="width: 18rem">
+              <img src="./pages/alice.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-bg-dark">
+                <h5 class="card-title">Alice in Wonderland</h5>
+                <p class="card-text">
+                  Alice in Wonderland" di Lewis Carroll è un viaggio fantastico
+                  in un mondo surreale, dove la curiosità e l'immaginazione di
+                  Alice la portano a incontrare personaggi eccentrici e
+                  situazioni stravaganti, esplorando temi di identità e non
+                  conformità.
+                </p>
+                <button type="button" class="btn btn-light">
+                  prestare di nuovo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- nav-bottom -->
+      <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link text-bg-dark" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-bg-dark" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-bg-dark" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-bg-dark" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-bg-dark" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <!-- link-bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

@@ -20,3 +20,7 @@
   color: rgba(128, 128, 128, 0.534);
   opacity: 1;
 }
+
+p {
+  font-size: 0.8em;
+}
