@@ -15,3 +15,8 @@
 .duck {
   width: 50px;
 }
+
+.place-holder::placeholder {
+  color: rgba(128, 128, 128, 0.534);
+  opacity: 1;
+}
